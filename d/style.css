@@ -1,0 +1,38 @@
+.Video{
+    display: flex;
+    justify-content: center;
+}
+.Meet p{
+    margin-left: 1.5rem;
+}
+.Support p{
+    margin-left: 1.5rem;
+}
+.reight-section{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+}
+.reight-section .img1{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.phone-img{
+    border-radius: 1rem;
+    margin-left: -1.5rem;
+}
+
+
+/* responsive */
+@media screen and   (max-width: 420px) { /* On screens smaller than 420 pixels */
+    .parent{
+        display: block;
+    }
+    .phone-img{
+        display: none;
+    }
+    .reight-section{
+        margin: 0 auto; /*  center the section */
+    }   
+}
